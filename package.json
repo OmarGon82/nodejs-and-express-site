@@ -1,5 +1,5 @@
 {
-  "name": "Nodejs and Express site",
+  "name": "Nodejs-and-Express site",
   "version": "1.0.0",
   "description": "A personal sight created using Nodejs and Express",
   "main": "index.js",
