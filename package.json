@@ -1,8 +1,13 @@
 {
-  "name": "Nodejs-and-Express site",
-  "version": "1.0.0",
-  "description": "A personal sight created using Nodejs and Express",
+  "name": "my_nodejs_and_express_site",
+  "version": "0.0.1",
+  "description": "A personal website",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,15 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/OmarGon82/nodejs-and-express-site.git"
   },
-  "keywords": [],
-  "author": "Omar Gonzalezno",
-  "license": "ISC",
+  "author": "Omar Gonzalez",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/OmarGon82/nodejs-and-express-site/issues"
   },
-  "homepage": "https://github.com/OmarGon82/nodejs-and-express-site#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "pug": "^2.0.4"
-  }
+  "homepage": "https://github.com/OmarGon82/nodejs-and-express-site#readme"
 }
