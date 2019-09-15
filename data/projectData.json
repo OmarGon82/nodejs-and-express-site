@@ -5,7 +5,7 @@
             {
                 "id": 0,
                 "project_name": "Random Quote Generator",
-                "description": "A program that displays a Random Quote",
+                "description": "This app displays a random quote and random background color. There is also a button to change both the quote and button. The quotes are from the show 'The Simpsons'.",
                 "technologies": [
                         "CSS",
                         "HTML",
@@ -90,6 +90,7 @@
                 "technologies": [
                     "CSS",
                     "HTML",
+                    "fetch",
                     "javaScript"
                 ],
                 "live_link": "https://omargon82.github.io/Public-API-Request/",
@@ -97,9 +98,9 @@
                 "image_urls" : {
                     "project_thumbnail": "placeholder link",
                     "project_images": [
-                        "/static/img/project-1/randQuote1.png",
-                        "/static/img/project-1/randQuote2.png",
-                        "/static/img/project-1/randQuote3.png"
+                        "/static/img/project-5/api1.png",
+                        "/static/img/project-5/api2.png",
+                        "/static/img/project-5/api3.png"
                     ]   
                 }
             }
