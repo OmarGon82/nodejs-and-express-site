@@ -20,10 +20,9 @@ router.get('/projects/:id', (req, res) => {
         live_link,
         github_link,
         image_urls,
-        image_urls
+        image_urls,
     }
     res.render('project', templateData);
-
 });
 
 
