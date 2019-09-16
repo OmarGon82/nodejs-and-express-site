@@ -1,7 +1,7 @@
 const express = require('express');
+
 const app  = express();
 
-// const bodyParser = require('body-parser');
 
 app.use('/static', express.static('public'))
 app.set('view engine', 'pug');
@@ -15,13 +15,18 @@ app.use(aboutRouter);
 app.use(projectsRouter);
 
 
-// app.get('/about', (req, res) => {
-//     res.render('about');
-// });
+app.use((req, res, next) => {
+    const err = new Error('Not Found');
+    err.status = 404;
+    next(err);
+});
 
-// app.get('/', (req, res) => {
-//     res.send("This is working");
-// });
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status);
+    console.log(res.locals.error);
+    res.render('error')
+});
 
 app.listen(3000, () => {
     console.log("The app is running on localhost: 3000");

@@ -5,7 +5,7 @@
             {
                 "id": 0,
                 "project_name": "Random Quote Generator",
-                "description": "This app displays a random quote and random background color. There is also a button to change both the quote and button. The quotes are from the show 'The Simpsons'.",
+                "description": "This app displays a random quote and random background color.There is also a button to change both the quote and background. The quotes are from the show 'The Simpsons'.",
                 "technologies": [
                         "CSS",
                         "HTML",
@@ -25,7 +25,7 @@
             {
                 "id": 1,
                 "project_name": "List Pagination and Filtering",
-                "description": "Displays the first 10 students from a long list of students",
+                "description": "This app displays the first 10 students from a list of any size and dynamically adds pagination links. It also has a search feature to search through the list of students.",
                 "technologies": [
                     "CSS",
                     "HTML",
@@ -45,11 +45,12 @@
             {
                 "id": 2,
                 "project_name": "Interactive Form",
-                "description": "An interactive form for a fictional conference",
+                "description": "An interactive form for a fictional conference. It has form validation to stop the form from submitting until its been properly filled out. It takes advantage of regex to check the information entered is correct.",
                 "technologies": [
                     "CSS",
                     "HTML",
                     "javaScript",
+                    "Regex",
                     "jQuery"
                 ],
                 "live_link": "https://omargon82.github.io/Interactive-Form-/",
@@ -66,11 +67,12 @@
             {
                 "id": 3,
                 "project_name": "Phrase Hunter",
-                "description": "An OOP game",
+                "description": "An OOP phrase guessing game. It's made to be in the theme of the movie 'Predator'. The user can use both a virtual keyboard their physical keyboard to input guesses.",
                 "technologies": [
                     "CSS",
                     "HTML",
-                    "javaScript"
+                    "javaScript",
+                    "OOP"
                 ],
                 "live_link": "https://omargon82.github.io/Phrase-Hunter/",
                 "github_link": "https://github.com/OmarGon82/Phrase-Hunter",
@@ -86,7 +88,7 @@
             {
                 "id": 4,
                 "project_name": "Public API request",
-                "description": "A program that displays 12 fictional employees and their information",
+                "description": "A program that displays 12 fictional employees and their information. If an employee card is clicked a modal appears and more information is shown. Users can cycle through the modals and also search through the employees. I used Lego avatars to make this project more fun.",
                 "technologies": [
                     "CSS",
                     "HTML",

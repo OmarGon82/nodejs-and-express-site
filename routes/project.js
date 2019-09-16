@@ -21,8 +21,16 @@ router.get('/projects/:id', (req, res) => {
         github_link,
         image_urls,
         image_urls,
-    }
-    res.render('project', templateData);
+    };
+        if (id ) {
+            res.render('project', templateData);
+        }
+        if (!id) {
+            const err = new Error("It looks like the page you are looking for doesn't exist");
+            res.locals.error = err;
+            err.status = 404;
+            res.render('error')
+        }
 });
 
 
