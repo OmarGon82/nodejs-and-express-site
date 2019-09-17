@@ -17,7 +17,7 @@ app.use(projectsRouter);
 
 
 app.use((req, res, next) => {
-    const err = new Error('Not Found');
+    const err = new Error("It looks like the page you are looking for doesn't exist");
     err.status = 404;
     next(err);
 });
@@ -26,7 +26,7 @@ app.use((err, req, res, next) => {
     res.locals.error = err;
     res.status(err.status);
     console.log(res.locals.error);
-    res.render('error')
+    res.redirect('error')
 });
 
 app.listen(3000, () => {
