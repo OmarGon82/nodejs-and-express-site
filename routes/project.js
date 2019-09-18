@@ -3,9 +3,17 @@ const router = express.Router();
 const  { data } = require('../data/projectData.json');
 const  { projects } = data;
 
+router.get('/projects', (req, res) => {
+    res.redirect('/projects/0');
+});
+
+router.get('/project', (req, res) => {
+    res.redirect('/projects/0');
+});
+
 router.get('/projects/:id', (req, res) => {
     const { id } = req.params;
-    
+
         if (!projects[id]) {
             const err = new Error("It looks like the page you are looking for doesn't exist");
             err.status = 404;

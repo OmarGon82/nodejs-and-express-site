@@ -14,7 +14,7 @@ const projectsRouter = require('./routes/project');
 app.use(routes);
 app.use(aboutRouter);
 app.use(projectsRouter);
-
+app.use('/', projectsRouter);
 
 app.use((req, res, next) => {
     const err = new Error("It looks like the page you are looking for doesn't exist");
