@@ -14,7 +14,7 @@
                 "live_link": "https://omargon82.github.io/Random-Quote-Generator-/",
                 "github_link": "https://github.com/OmarGon82/Random-Quote-Generator-",
                 "image_urls" : {
-                    "project_thumbnail": "placeholder link",
+                    "project_thumb": "/static/img/project-1/thumb/quotethumb.png",
                     "project_images": [
                         "/static/img/project-1/randQuote1.png",
                         "/static/img/project-1/randQuote2.png",
@@ -34,7 +34,7 @@
                 "live_link": "https://omargon82.github.io/Student-List-Pagination/",
                 "github_link": "https://github.com/OmarGon82/Student-List-Pagination",
                 "image_urls" : {
-                    "project_thumbnail": "placeholder link",
+                    "project_thumb": "placeholder link",
                     "project_images": [
                         "/static/img/project-2/pagination1.png",
                         "/static/img/project-2/pagination2.png",
@@ -56,7 +56,7 @@
                 "live_link": "https://omargon82.github.io/Interactive-Form-/",
                 "github_link": "https://github.com/OmarGon82/Interactive-Form-",
                 "image_urls" : {
-                    "project_thumbnail": "placeholder link",
+                    "project_thumb": "placeholder link",
                     "project_images": [
                         "/static/img/project-3/fscon1.png",
                         "/static/img/project-3/fscon2.png",
@@ -77,7 +77,7 @@
                 "live_link": "https://omargon82.github.io/Phrase-Hunter/",
                 "github_link": "https://github.com/OmarGon82/Phrase-Hunter",
                 "image_urls" : {
-                    "project_thumbnail": "placeholder link",
+                    "project_thumb": "placeholder link",
                     "project_images": [
                         "/static/img/project-4/ph1.png",
                         "/static/img/project-4/ph2.png",
@@ -98,7 +98,7 @@
                 "live_link": "https://omargon82.github.io/Public-API-Request/",
                 "github_link": "https://github.com/OmarGon82/Public-API-Request",
                 "image_urls" : {
-                    "project_thumbnail": "placeholder link",
+                    "project_thumb": "placeholder link",
                     "project_images": [
                         "/static/img/project-5/api1.png",
                         "/static/img/project-5/api2.png",
