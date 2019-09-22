@@ -98,7 +98,6 @@
                 "live_link": "https://omargon82.github.io/Public-API-Request/",
                 "github_link": "https://github.com/OmarGon82/Public-API-Request",
                 "image_urls" : {
-                    "project_thumb": "placeholder link",
                     "project_images": [
                         "/static/img/project-5/api1.png",
                         "/static/img/project-5/api2.png",

@@ -36,7 +36,7 @@ router.get('/projects/:id', (req, res) => {
                 github_link,
                 image_urls,
             } 
-            res.render('project', templateData);
+            res.render('project', templateData  );
         }
             
 
