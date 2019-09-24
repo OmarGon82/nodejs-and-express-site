@@ -6,7 +6,7 @@ const  { projects } =  data;
 
 
 router.get('/', (req, res) => {
-    res.render('index', { projects });
+res.render('index', { projects });
 });
     
 module.exports = router; 
