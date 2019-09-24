@@ -4,7 +4,7 @@ block content
   article.grid-container.portfolio-intro
     div
 
-      //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
+       
       h1 Omar Gonzalez
         p Welcome to my full-stack journey. Let's build the future together!
 
@@ -14,7 +14,7 @@ block content
   article.grid-container.portfolio-index
     
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
-
+<!--loop to get the individual project by id and render the thumbmnail and the project name -->
       each project in projects
         .cell
           a(href=`/projects/${project.id}`, target="_blank")

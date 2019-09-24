@@ -1,22 +1,33 @@
+/**
+ * Dependencies used in this project.
+ */
 const express = require('express');
-const bodyParser = require('body-parser');
-
 const app  = express();
 
-app.use(bodyParser.urlencoded({ extended: false }));
+/**
+ *middleware set up.
+ */
 app.use('/static', express.static('public'))
 app.set('view engine', 'pug');
 
+/**
+ * variables for routes
+ */
 const routes = require('./routes');
 const aboutRouter = require('./routes/about');
 const projectsRouter = require('./routes/project');
 
+/**
+ * routes and redirects
+ */
 app.use(routes);
 app.use(aboutRouter);
 app.use(projectsRouter);
 app.use('/', projectsRouter);
 
-
+/**
+ * error handling. Throws 404 error if URL not found
+ */
 app.use((req, res, next) => {
     const err = new Error("Not found");
     err.status = 404;
@@ -30,6 +41,9 @@ app.use((err, req, res, next) => {
     console.log(res.locals.error);
 });
 
+/**
+ * starting the local server on port 3000.
+ */
 app.listen(3000, () => {
     console.log("The app is running on localhost: 3000");
 });

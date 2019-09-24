@@ -12,7 +12,7 @@ router.get('/project', (req, res) => {
     res.redirect('/projects/0');
 });
 
-//this get request will through an error if the id parameter is wrong. 
+//get request will throw an error if the id parameter is wrong. 
 router.get('/projects/:id', (req, res) => {
     const { id } = req.params;
     //if the id.length is greater than data.projects.length throw the error
@@ -38,7 +38,7 @@ router.get('/projects/:id', (req, res) => {
                 github_link,
                 image_urls,
             }
-            console.log(templateData)
+            //more concise way is to render projects[id]
             res.render('project', templateData  );
         }
 });
