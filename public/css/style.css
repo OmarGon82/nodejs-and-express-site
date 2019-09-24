@@ -85,7 +85,7 @@ a:hover{
 .portfolio-breadcrumb{
   margin: 0;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1.5px solid black;
 }
 
  .portfolio-breadcrumb a{
