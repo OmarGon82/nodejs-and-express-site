@@ -1,10 +1,10 @@
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Slab', serif;
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,p{
 
   p{
     font-size: 15px;
-    color: #666;
+    color: black;
   }
 
 .round{
@@ -27,15 +27,15 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: black;
 }
 
 .button{
-  background-color: #333;
+  background-color: rgb(21, 102, 182);
 }
 
 .button:hover{
-  background-color: #111;
+  background-color:  black;
 }
 
 a{
@@ -52,26 +52,26 @@ a:hover{
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  box-shadow: 0 0 0 1px rgba(17, 14, 14, 0.2);
   line-height: 0;
 }
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background-image: url("../img/background/footer_lodyas.png");
   color: #fff;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: white;
   }
 
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-weight: 600;
-    color: #555;
+    color: white;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -89,7 +89,7 @@ a:hover{
 }
 
  .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: "Roboto Slab", sans-serif;
    font-weight: 600;
    font-size: 13px;
    letter-spacing: 2.5px;
@@ -147,4 +147,9 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+body {
+  background-image: url("../img/background/gaming-pattern.png");
+  color: black;
 }
