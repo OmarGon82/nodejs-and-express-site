@@ -18,4 +18,4 @@ background images were downloaded from https://www.toptal.com/designers/subtlepa
 
 changed border around project thumbnail images and project images.
 
-project thumbnails rotate 360 degress.
+project thumbnails rotate 360 degress when clicked
