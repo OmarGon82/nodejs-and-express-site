@@ -50,9 +50,9 @@ a:hover{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
+  border: solid 4px dodgerblue;
   border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(17, 14, 14, 0.2);
+  box-shadow: 0 0 0 1px darkblue;
   line-height: 0;
 }
 
@@ -114,8 +114,12 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+    border: dashed 1px dodgerblue;
+    transition: all .3s;
   }
-
+  .portfolio-index .thumbnail:hover {
+    transform: rotate(1turn);
+  }
   .portfolio-index a{
     color: #222;
   }

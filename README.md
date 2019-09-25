@@ -14,3 +14,8 @@ Changed all fonts to Roboto Slab
 
 button color changed to  rgb(21, 102, 182) but stays black on hover.
 
+background images were downloaded from https://www.toptal.com/designers/subtlepatterns/
+
+changed border around project thumbnail images and project images.
+
+project thumbnails rotate 360 degress.
