@@ -114,7 +114,7 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
-    border: dashed 1px dodgerblue;
+    border: solid 1px dodgerblue;
     transition: all .5s;
   }
   .portfolio-index .thumbnail:active {
