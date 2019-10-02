@@ -3,7 +3,7 @@
  */
 const express = require('express');
 const app  = express();
-
+const port = process.env.Port || 3000;
 /**
  *middleware set up.
  */
@@ -44,6 +44,6 @@ app.use((err, req, res, next) => {
 /**
  * starting the local server on port 3000.
  */
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log("The app is running on localhost: 3000");
 });
