@@ -12,6 +12,9 @@
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "12.8.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OmarGon82/nodejs-and-express-site.git"
