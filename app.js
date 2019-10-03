@@ -4,7 +4,7 @@
 const express = require('express');
 const app  = express();
 //code for heroku
-const port = process.env.Port || 3000;
+const port = process.env.PORT || 5000;
 /**
  *middleware set up.
  */
@@ -43,7 +43,7 @@ app.use((err, req, res, next) => {
 });
 
 /**
- * starting the local server on port 3000.
+ * starting the local server on port 5000.
  */
 app.listen(port, () => {
     console.log(`The app is running on localhost: ${port}`);
