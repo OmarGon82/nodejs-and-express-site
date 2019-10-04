@@ -67,7 +67,7 @@
             {
                 "id": 3,
                 "project_name": "Phrase Hunter",
-                "description": "An OOP phrase guessing game. It's made to be in the theme of the movie 'Predator'. The user can use both a virtual keyboard their physical keyboard to input guesses.",
+                "description": "An OOP phrase guessing game. It's made to be in the theme of the movie 'Predator'. The user can use both a virtual keyboard or their physical keyboard to input guesses.",
                 "technologies": [
                     "CSS",
                     "HTML",
