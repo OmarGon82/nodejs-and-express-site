@@ -3,6 +3,7 @@ const router = express.Router();
 const  { data } = require('../data/projectData.json');
 const  { projects } = data;
 
+
 //redirects for wrong urls for example if just 'projects' or 'projects/' without an id are input
 router.get('/projects', (req, res) => {
     res.redirect('/projects/0');
@@ -40,9 +41,8 @@ router.get('/projects/:id', (req, res) => {
             }
             //more concise way is to render projects[id]
             res.render('project', templateData  );
+            
         }
 });
-
-
 module.exports = router;
 
