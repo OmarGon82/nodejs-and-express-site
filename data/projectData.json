@@ -105,6 +105,28 @@
                         "/static/img/project-5/apithumb.png"
                     ]   
                 }
+            },
+            {
+                "id": 5,
+                "project_name": "React Photo Gallery App",
+                "description": "An app that displays photos from the flicker API ",
+                "technologies": [
+                    "CSS",
+                    "HTML",
+                    "javaScript",
+                    "Node js",
+                    "Pug"    
+                ],
+                "live_link": "https://photogalleryapp.gonzalezoe82.now.sh/",
+                "github_link": "https://github.com/OmarGon82/photoGalleryApp",
+                "image_urls" : {
+                    "project_images": [
+                        "/static/img/project-7/pG1.png",
+                        "/static/img/project-7/pG2.png",
+                        "/static/img/project-7/pG3.png",
+                        "/static/img/project-75/pG1thumb.png"
+                    ]   
+                }
             }
 
         ]
