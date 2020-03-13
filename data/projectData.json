@@ -127,6 +127,30 @@
                         "/static/img/project-7/pGthumb.png"
                     ]   
                 }
+            },
+            {
+                "id": 6,
+                "project_name": "SQL Library App",
+                "description": "An app to manage a collection of books. Books can be added, deleted, or updated.",
+                "technologies": [
+                    "CSS",
+                    "HTML",
+                    "javaScript",
+                    "Node js",
+                    "Pug",
+                    "SQLite",
+                    "Sequelize"    
+                ],
+                "live_link": "https://sql-library-app-og.herokuapp.com/books?page=1",
+                "github_link": "https://github.com/OmarGon82/sql-library-manager",
+                "image_urls" : {
+                    "project_images": [
+                        "/static/img/project-8/sql1.png",
+                        "/static/img/project-8/sql2.png",
+                        "/static/img/project-8/sql3.png",
+                        "/static/img/project-8/sqlthumb.png"
+                    ]   
+                }
             }
 
         ]
